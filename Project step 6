@@ -1,0 +1,32 @@
+
+Project Step 6
+
+USE CASE: Basketball
+
+Actors
+customer
+
+Trigger
+customer indicates they want to sign up to play basketball
+
+Precondition
+there must be a form to sign up to play
+
+Post-condition
+customer will be signed up to play
+
+Normal Flow
+
+The user will make an account if they don't have one
+The user will log in
+The user selects an team and indicates they would like to play
+The user will be presented with an sign up form to fill out
+The user will submit the form
+The system will prompt the user to confirm all information is correct
+The system will send a conformation email to customer
+The user will exit the system
+
+Alternate Flow
+A. The user will discover the team they selected is unavailable.
+The system will prompt an error that the team they selected is unavailable.
+The use case returns to step 4
